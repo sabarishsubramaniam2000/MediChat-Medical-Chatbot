@@ -14,16 +14,6 @@ This project leverages:
 
 Below is a step-by-step flowchart of how the **MediChat AI Medical Chatbot** processes user queries using **LLaMA-2 and FAISS vector search**.
 
-```mermaid
-graph TD;
-  A[User asks a medical question] -->|Check if documents are embedded| B{Are documents available?};
-  B -- Yes --> C[Retrieve relevant document chunks];
-  B -- No --> D[Prompt user to embed documents first];
-  C --> E[Generate response using Llama2 & vector database];
-  E --> F[Display medical answer & reference documents];
-  F --> G[Allow user to ask another question];
-  G --> A;
-
 
 ## **Project Structure**
 📂 MediChat/ │── 📂 finetuned_llama/ # Fine-tuned LLaMA-2 model (output of finetune.py) │── 📂 Document/ # Folder to store uploaded PDFs │── 📝 app.py # Chatbot app (Streamlit UI + FAISS search) │── 📝 finetune.py # Fine-tuning script for LLaMA-2 │── 📝 custom_data.json # Training dataset (medical Q&A) │── 📝 custom_data_test.json # Validation dataset (testing AI's accuracy) │── 📝 requirements.txt # List of required Python libraries │── 📝 .env # Stores API keys (Hugging Face & Groq) │── 📝 README.md # Project documentation

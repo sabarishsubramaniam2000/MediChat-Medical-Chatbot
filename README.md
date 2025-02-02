@@ -3,9 +3,9 @@
 MediChat is an **AI-powered medical chatbot** that answers medical questions using **fine-tuned LLaMA-2** and **Retrieval-augmented generation (RAG)**. It allows users find answers related to medical domain based on the upload medical documents (e.g., *Gale Encyclopedia of Medicine*, *Current Essential Medicine*) and search within them for relevant answers.
 
 ---
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8f6e71f7-01af-4c64-8c11-0133f60a0786" alt="Screenshot" width="600">
-</p>
+https://github.com/user-attachments/assets/e573d3c1-f8c1-45e1-a358-afdd605d8d45
+
+---
 
 ## **Project Overview**
 This project leverages:
@@ -13,6 +13,10 @@ This project leverages:
 - **Fine-Tuned LLaMA-2 Chat Model** (using `finetune.py`)
 - **Streamlit UI** for an easy-to-use chatbot interface
 - **Custom Medical Dataset** (extracted from *Gale Encyclopedia of Medicine Volume 1 & 2* and *Current Essential Medicine*)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f6e71f7-01af-4c64-8c11-0133f60a0786" alt="Screenshot" width="600">
+</p>
 
 ## System Workflow
 

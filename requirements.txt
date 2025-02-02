@@ -1,0 +1,33 @@
+# Streamlit for Web UI
+streamlit
+
+# LangChain and Integrations
+langchain
+langchain-groq
+langchain-openai
+langchain-core
+langchain-community
+
+# FAISS for Vector Search
+faiss-cpu
+
+# PDF Processing
+pypdf
+
+# Hugging Face Transformers and Datasets
+transformers
+datasets
+huggingface-hub
+sentencepiece
+
+# LoRA & Efficient Fine-Tuning
+peft
+bitsandbytes
+
+# PyTorch (For Model Training)
+torch
+accelerate
+
+# Environment Variables & HTTP Requests
+python-dotenv
+requests

@@ -24,7 +24,6 @@ graph TD;
   F --> G[Allow user to ask another question];
   G --> A;
 
----
 
 ## **Project Structure**
 📂 MediChat/ │── 📂 finetuned_llama/ # Fine-tuned LLaMA-2 model (output of finetune.py) │── 📂 Document/ # Folder to store uploaded PDFs │── 📝 app.py # Chatbot app (Streamlit UI + FAISS search) │── 📝 finetune.py # Fine-tuning script for LLaMA-2 │── 📝 custom_data.json # Training dataset (medical Q&A) │── 📝 custom_data_test.json # Validation dataset (testing AI's accuracy) │── 📝 requirements.txt # List of required Python libraries │── 📝 .env # Stores API keys (Hugging Face & Groq) │── 📝 README.md # Project documentation

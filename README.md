@@ -3,6 +3,9 @@
 MediChat is an **AI-powered medical chatbot** that answers medical questions using **fine-tuned LLaMA-2** and **Retrieval-augmented generation (RAG)**. It allows users find answers related to medical domain based on the upload medical documents (e.g., *Gale Encyclopedia of Medicine*, *Current Essential Medicine*) and search within them for relevant answers.
 
 ---
+
+![Screenshot 2025-02-02 at 5 00 11 PM](https://github.com/user-attachments/assets/8f6e71f7-01af-4c64-8c11-0133f60a0786)
+
 ## **Project Overview**
 This project leverages:
 - **LangChain & FAISS for Document Search** (used in `app.py`)
@@ -10,7 +13,7 @@ This project leverages:
 - **Streamlit UI** for an easy-to-use chatbot interface
 - **Custom Medical Dataset** (extracted from *Gale Encyclopedia of Medicine Volume 1 & 2* and *Current Essential Medicine*)
 
-## 📊 System Workflow
+## System Workflow
 
 Below is a step-by-step flowchart of how the **MediChat AI Medical Chatbot** processes user queries using **LLaMA-2 and FAISS vector search**.
 
@@ -37,9 +40,5 @@ Below is a step-by-step flowchart of how the **MediChat AI Medical Chatbot** pro
 4. **Train for Multiple Epochs** (evaluating using `custom_data_test.json`).
 5. **Save the Fine-Tuned Model** for use in `app.py`.
 
-## **📚 Why We Use a Custom JSON Dataset?**
+## **Why We Use a Custom JSON Dataset?**
 The default LLaMA-2 model **isn’t specialized in medicine**, so we need to teach it using **domain-specific data**.
-
-### **✅ Custom Dataset Sources:**
-- *Gale Encyclopedia of Medicine Volume 1 & 2*
-- *Current Essential Medicine*

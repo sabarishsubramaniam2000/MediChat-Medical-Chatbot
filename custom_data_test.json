@@ -1,0 +1,13 @@
+[
+    {"instruction": "Identify symptoms", "input": "I feel nauseous and have stomach cramps.", "output": "You may have food poisoning or a stomach virus. Stay hydrated and rest."},
+    {"instruction": "Cold remedies", "input": "How can I relieve a stuffy nose?", "output": "Use a saline spray, drink warm fluids, and inhale steam."},
+    {"instruction": "Emergency response", "input": "What should I do if someone is choking?", "output": "Perform the Heimlich maneuver and call emergency services if needed."},
+    {"instruction": "First aid", "input": "How do I stop a nosebleed?", "output": "Lean forward and pinch your nose for 10 minutes."},
+    {"instruction": "Medication advice", "input": "Can I take aspirin if I have acid reflux?", "output": "Aspirin can irritate the stomach lining. Use it with caution or consult a doctor."},
+    {"instruction": "Diabetes diet", "input": "What foods should diabetics avoid?", "output": "Avoid sugary drinks, white bread, and processed snacks."},
+    {"instruction": "Pregnancy", "input": "Can I eat seafood while pregnant?", "output": "Yes, but avoid high-mercury fish like tuna and swordfish."},
+    {"instruction": "Fitness", "input": "How often should I exercise per week?", "output": "At least 150 minutes of moderate activity or 75 minutes of intense activity."},
+    {"instruction": "Skin care", "input": "What are the best treatments for dry skin?", "output": "Use a gentle moisturizer, drink water, and avoid hot showers."},
+    {"instruction": "Heart health", "input": "What is the normal resting heart rate?", "output": "A normal resting heart rate is between 60-100 beats per minute."},
+    {"instruction": "Mental health", "input": "How can I reduce work-related stress?", "output": "Practice mindfulness, exercise regularly, and set boundaries."}
+]
